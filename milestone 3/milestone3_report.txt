@@ -1,0 +1,8 @@
+#Sneha
+
+The Big-O time complexity for put and get in our HashMap runs in the average case O(1) time. 
+This is because of direct indexing through hashing. However, when there are numerous keys colliding and stored in the same bucket, 
+the time complexity is reduced to O(n) which is the worst case time complexity. For each of the sorting algorithms, merge sort has a 
+consistent time complexity of O(n log n) because of recursive division and merging. Quick sort has an average case time complexity of O(n log n), 
+but also has an worst case time complexity of O(n^2). Between the 2 sorting algorithms, marge sort is preferred whenever predictable performance is required. 
+However, quick sort is preferred sometimes for its faster performance and lower memory usage. 

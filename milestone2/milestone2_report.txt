@@ -1,0 +1,18 @@
+
+#Sneha
+
+In this project, we implemented different data structures and algorithms to manage course enrollment and waitlists efficiently.
+
+
+For the LinkedQueue data structure, the Big-O time complexity for both the enqueue and dequeue operations run in O(1) time. This is because the enqueue and dequeue operations only update hte pointers in the front and back of the queue. When the enqueue is called a new node is added to the end and the rear pointer is also updated but when a dequeue is called the front node is removed while the front pointer moves to the next node. Since there is no traversal in the structure, it runs in a constant time, making it ideal for managing waitlists. 
+
+For sorting we implemented 2 sorting algorithms: insertion sort and selection sort. Both algorithms have a time complexity of O(n^2) as the worst-case time complexity but can have an O(n) time complexity if the list is sorted. Selection sort also has an O(n^2) time complexity because it repeatedly finds the smallest element from the unsorted parts of the list and places it back into the correct order but also always scans the full list. 
+
+For searching, we used recursive binary search. The time complexity for the recursive binary search is O(log n) since the list is repeatedly divided into halves, making it safer than linear search. The algorithm spends time to decide which half to search, making sorting required for using binary search. 
+
+
+Between the two sorting methods, insertion sort is better for small or nearly sorted data. Though selection sort is easier to understand, it is less efficient in most cases because it doesnt take advantage of the existing order. 
+
+Overall, this project helped us understand how different algorithms affect performance and why choosing the right method is important.
+
+
